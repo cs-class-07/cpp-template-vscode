@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Build & Run (External Console)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "Clang++ Build",
+        }
+    ],
+    "version": "2.0.0"
+}
