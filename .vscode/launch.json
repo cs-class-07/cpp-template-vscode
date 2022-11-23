@@ -11,7 +11,7 @@
             "environment": [],
             "externalConsole": true,
             "MIMode": "lldb",
-            "preLaunchTask": "Clang++ Build",
+            "preLaunchTask": "clangbuild",
         },
         {
             "name": "Build & Run",
@@ -24,7 +24,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "Clang++ Build"
+            "preLaunchTask": "clangbuild"
         },
         {
             "name": "Run (External Console)",
