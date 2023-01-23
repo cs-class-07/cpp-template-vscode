@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Mac (Clang++)",
+            "name": "Mac (Clang++) [x64]",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -11,8 +11,19 @@
             ],
             "compilerPath": "/usr/bin/clang++",
             "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cppStandard": "c++20",
             "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Linux (GCC++) [x64]",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

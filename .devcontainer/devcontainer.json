@@ -10,10 +10,10 @@
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/sshd:1": {},
-		"ghcr.io/devcontainers-contrib/features/tldr:1": {},
+		// "ghcr.io/devcontainers/features/sshd:1": {},
+		"ghcr.io/devcontainers-contrib/features/tldr:2": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
-		"ghcr.io/devcontainers-contrib/features/gdbgui:1": {}
+		"ghcr.io/devcontainers-contrib/features/gdbgui:2": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -30,7 +30,7 @@
 		"codespaces": {
 			"openFiles": ["./problem1.cpp"]
 		}
-	},
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"

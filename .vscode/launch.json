@@ -50,6 +50,31 @@
             "externalConsole": false,
             "MIMode": "lldb"
         },
+        {
+            "name": "Build & Run [Linux]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "gccbuild"
+        },
+        {
+            "name": "Run [Linux]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb"
+        },
     ],
     "version": "2.0.0"
 }
