@@ -8,11 +8,27 @@
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+                // "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks" // Alternative framework location for XCode based installations
             ],
             "compilerPath": "/usr/bin/clang++",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Mac (Clang++) [ARM]",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+                // "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks" // Alternative framework location for XCode based installations
+            ],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "macos-clang-arm64"
         },
         {
             "name": "Linux (GCC++) [x64]",
